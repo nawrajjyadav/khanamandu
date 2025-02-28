@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Pizza, Sushi, Hamburger, Coffee, Salad, Utensils, ChevronRight } from 'lucide-react';
+import { Pizza, Coffee, Salad, Utensils, ChevronRight } from 'lucide-react';
 
 import SearchBar from '../components/SearchBar';
 import CategoryCard from '../components/CategoryCard';
@@ -77,8 +77,6 @@ const HomePage: React.FC = () => {
   // Categories with icons
   const categories = [
     { name: 'Pizza', icon: <Pizza className="h-6 w-6" />, color: 'bg-red-500' },
-    { name: 'Sushi', icon: <Sushi className="h-6 w-6" />, color: 'bg-blue-500' },
-    { name: 'Burgers', icon: <Hamburger className="h-6 w-6" />, color: 'bg-yellow-500' },
     { name: 'Coffee', icon: <Coffee className="h-6 w-6" />, color: 'bg-brown-500' },
     { name: 'Salads', icon: <Salad className="h-6 w-6" />, color: 'bg-green-500' },
     { name: 'All', icon: <Utensils className="h-6 w-6" />, color: 'bg-purple-500' },
